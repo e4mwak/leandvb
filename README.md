@@ -1,11 +1,11 @@
 # Analog Radio Hunter DATV LeanDVB Package
 
-This folder is a ready-to-publish source package for the external `leandvb.exe` backend used by Analog Radio Hunter DATV RX.
+This repository contains the external `leandvb.exe` backend source package used by Analog Radio Hunter DATV RX.
 
 ## Purpose
 
 - Keep the DATV backend separate from the main app EXE.
-- Publish the matching modified LeanDVB source and license materials in a separate repository or release package.
+- Publish the matching modified LeanDVB source and license materials in this repository and its releases.
 - Let users download `leandvb.exe` manually and place it in `DATV\leandvb.exe` next to the main app.
 
 ## Upstream origin
@@ -15,12 +15,17 @@ This folder is a ready-to-publish source package for the external `leandvb.exe` 
 
 ## What to publish
 
-- `source/` directory from this folder
+- `source/` directory from the repository root
 - `LICENSE.txt`
 - `BUILD_WINDOWS.md`
 - `UPSTREAM.md`
 - `MODIFIED_FILES.md`
 - your built `leandvb.exe` binary as a release asset
+
+## Repository
+
+- Repository URL: `https://github.com/e4mwak/leandvb`
+- Recommended download point for users: the repository `Releases` page
 
 ## User install workflow
 

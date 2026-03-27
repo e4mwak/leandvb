@@ -32,3 +32,8 @@ Users should place that file next to the main app inside:
 ```text
 DATV\leandvb.exe
 ```
+
+Recommended distribution model:
+
+- Keep source code, license text, and build notes in `https://github.com/e4mwak/leandvb`
+- Upload `leandvb.exe` as a GitHub Release asset
